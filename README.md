@@ -54,10 +54,10 @@ MONGODB_URi = <your_mongoDb_database_string>
 ## 📸 Screenshots
 
 ### Homepage
-![Homepage](../client/src/assets/pic1.png)
+![Homepage](../client/src/assets/pic1.jpg)
 
 ### Statistics Page
-![Statistics Page](../client/src/assets/statisticsPage.png)
+![Statistics Page](../client/src/assets/shortlink.jpg)
 
 ### Redirecting Page
 ![Redirecting Page](../client/src/assets/redirectingPage.png)
