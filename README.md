@@ -54,13 +54,10 @@ MONGODB_URi = <your_mongoDb_database_string>
 ## 📸 Screenshots
 
 ### Homepage
-![Homepage](../client/src/assets/pic1.jpg)
+![Homepage](./client/src/assets/pic1.jpg)
 
 ### Statistics Page
-![Statistics Page](../client/src/assets/shortlink.jpg)
-
-### Redirecting Page
-![Redirecting Page](../client/src/assets/redirectingPage.png)
+![Statistics Page](./client/src/assets/shortlink.jpg)
 
 ---
 
@@ -77,11 +74,11 @@ MONGODB_URi = <your_mongoDb_database_string>
 ```
 
 ## Shorten URL API TESTING
-![Shorten URL API TESTING](../client/src/assets/postRouteCheck.png)
+![Shorten URL API TESTING](./client/src/assets/api2.jpg)
 
 ### 2. Redirect
 `GET /shorturls/:shortcode`
 
 ## Get Original URL API TESTING
-![Get Original URL API TESTING](../client/src/assets/getRouteCheck.png)
+![Get Original URL API TESTING](./client/src/assets/api1.jpg)
 ---
