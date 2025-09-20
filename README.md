@@ -74,11 +74,11 @@ MONGODB_URi = <your_mongoDb_database_string>
 ```
 
 ## Shorten URL API TESTING
-![Shorten URL API TESTING](./client/src/assets/api2.jpg)
+![Shorten URL API TESTING](./client/src/assets/api1.jpg)
 
 ### 2. Redirect
 `GET /shorturls/:shortcode`
 
 ## Get Original URL API TESTING
-![Get Original URL API TESTING](./client/src/assets/api1.jpg)
+![Get Original URL API TESTING](./client/src/assets/api2.jpg)
 ---
