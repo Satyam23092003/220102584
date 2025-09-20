@@ -41,7 +41,7 @@ exports.createShortUrl = async (req, res) => {
     await shortUrl.save();
 
     res.status(201).json({
-      shortLink: `http://localhost:3000/${code}`,
+      shortLink: `http://localhost:5173/${code}`,
       expiry: expiryDate.toISOString()
     });
   } catch (err) {

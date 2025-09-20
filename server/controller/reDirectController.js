@@ -36,7 +36,10 @@ exports.redirectToOriginal = async (req, res) => {
     await click.save();
 
     // 5. Redirect to original URL
-    return res.redirect(shortUrl.originalUrl);
+    return res.status(200).json({
+        success:true,
+        data:shortUrl.originalUrl
+    });
 
   } catch (err) {
     console.error("Redirect error:", err);

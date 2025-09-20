@@ -154,6 +154,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import ShortenerPage from "./pages/ShortenerPage";
 import StatsPage from "./pages/StatsPage";
 import { AppBar, Toolbar, Typography, Button, Box, Paper } from "@mui/material";
+import RedirectPage from "./pages/RedirectPage";
 
 function App() {
   return (
@@ -195,6 +196,7 @@ function App() {
           <Routes>
             <Route path="/" element={<ShortenerPage />} />
             <Route path="/stats" element={<StatsPage />} />
+            <Route path="/:shortcode" element={<RedirectPage/>}/>
           </Routes>
         </Paper>
       </Box>
